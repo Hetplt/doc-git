@@ -1,0 +1,16 @@
+body{
+    background:black;
+    color:white;
+    text-align:center;
+    margin-top:100px;
+    font-family:Arial;
+}
+
+h1{
+    color:lime;
+    font-size:60px;
+}
+
+p{
+    font-size:30px;
+}
