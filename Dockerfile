@@ -1,3 +1,9 @@
-FROM nginx
+FROM python:3.11
 
-COPY website /usr/share/nginx/html
+WORKDIR /app
+
+COPY . .
+
+RUN pip install -r requirements.txt
+
+CMD ["python","app.py"]
